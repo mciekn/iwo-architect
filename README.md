@@ -29,3 +29,8 @@ or:
 git update-index --chmod=+x .\IWO-LARP.eap
 ```
 whatever is in motion at the time, you can chceck if the `x` was added or removed in commit details in `GH` or `git` cli. 
+For example change: 
+```
+ BIN +70 KB (100%)  IWO-LARP.eap 100755 → 100644
+```  
+means that last option was -x so in another commit you will have to add '+x' option.
