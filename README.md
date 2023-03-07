@@ -1,18 +1,25 @@
-# Handling Enterprise Architect files via Git
+# Workflow
+### Branch policy
+It is forbidden by branch policy to push directly to main. In order to commit and merge new changes, please create separate branch based on main and merge it via pull request.
+### Handling Enterprise Architect files
+There are two ways of working on EA project:
+* Work on single `.eap` file and commit it as described below
+* To work paralelly, use XML files to import/export packages from/into `.eap` file.\
+\
 During work on certain task, please remember to update .eap file that contains whole enterprise architect project.
 At the same time, please export package you are working on into an XML file, and commit it explicitly into this repo.
 ### Export / Import of EA Packages in XML
 In order to import EA Package in XML format, select:
 
-&nbsp;&nbsp;&nbsp;Publish > Model Exchange > Import XML > Import Package from XML\
+&nbsp;&nbsp;&nbsp;`Publish` > `Model Exchange` > `Import XML` > `Import Package from XML`\
 &nbsp;&nbsp;&nbsp;or\
-&nbsp;&nbsp;&nbsp;Ctrl+Alt+I
+&nbsp;&nbsp;&nbsp;`Ctrl+Alt+I`
 
 In order to export EA package in XML format,
 1. Select package that you want to export in project tree
-2. Publish > Model Exchange > Import XML > Import Package from XML\
+2. `Publish` > `Model Exchange` > `Import XML` > `Import Package from XML`\
 or\
-Ctrl+Alt+E
+`Ctrl+Alt+E`
 
 
 ### Updating the `.eap` file
