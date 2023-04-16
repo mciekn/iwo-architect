@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2023-04-16 22:37:01">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_927E3BF6_1874_43c4_9B02_98C9D0A1C478">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="Projektowanie gier" xmi.id="EAPK_927E3BF6_1874_43c4_9B02_98C9D0A1C478" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="parent" value="EAPK_32CA0E53_72F7_4c3c_B328_39E704FAD956"/>
+						<UML:TaggedValue tag="created" value="2023-03-21 18:37:22"/>
+						<UML:TaggedValue tag="modified" value="2023-03-21 18:37:22"/>
+						<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+						<UML:TaggedValue tag="lastloaddate" value="2023-04-02 20:53:23"/>
+						<UML:TaggedValue tag="lastsavedate" value="2023-04-02 20:53:23"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="isprotected" value="FALSE"/>
+						<UML:TaggedValue tag="usedtd" value="FALSE"/>
+						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="packageFlags" value="CRC=0;"/>
+						<UML:TaggedValue tag="batchsave" value="0"/>
+						<UML:TaggedValue tag="batchload" value="0"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="author" value="Michal"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:UseCase name="Edycja gry" xmi.id="EAID_21D1033B_CAE5_460d_9A73_45221CEF0904" visibility="public" namespace="EAPK_927E3BF6_1874_43c4_9B02_98C9D0A1C478" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Po wcisnieciu przycisku edycja, system zaladuje edytor gry i wyswietli go uzytkownikowi.&#xA;13UCP"/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_927E3BF6_1874_43c4_9B02_98C9D0A1C478"/>
+								<UML:TaggedValue tag="date_created" value="2023-03-21 17:33:16"/>
+								<UML:TaggedValue tag="date_modified" value="2023-04-16 22:30:28"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Projektowanie gier"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="danio"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="571"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:UseCase>
+						<UML:Dependency client="EAID_7BE84BA9_4C8E_4b29_89E1_71AFA84BC50B" supplier="EAID_21D1033B_CAE5_460d_9A73_45221CEF0904" xmi.id="EAID_B9529E76_2762_4a53_9C00_517E5BF889D9" visibility="public">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="invokes"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="invokes"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;Â«invokesÂ»"/>
+								<UML:TaggedValue tag="ea_localid" value="411"/>
+								<UML:TaggedValue tag="ea_sourceName" value="WyA“wietlenie listy swoich gier"/>
+								<UML:TaggedValue tag="ea_targetName" value="Edycja gry"/>
+								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_sourceID" value="574"/>
+								<UML:TaggedValue tag="ea_targetID" value="571"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={2938D62D-DDC4-4764-95C4-576958833242}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=invokes;GUID={5FE4AD38-1D82-49f9-BBBC-D4EBDA4DB348};@ENDSTEREO;$DES;$CLT={B9529E76-2762-4a53-9C00-517E5BF889D9}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«invokes»"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:UseCase name="UsuniAacie gry" xmi.id="EAID_3414A408_4A99_4b54_9638_143442E39D84" visibility="public" namespace="EAPK_927E3BF6_1874_43c4_9B02_98C9D0A1C478" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Wcisniecie przycisku usun dla danej [gry], wysle zapytanie do serwera o usuniecie gry z listy gier uzytkownika.&#xA;3UCP"/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_927E3BF6_1874_43c4_9B02_98C9D0A1C478"/>
+								<UML:TaggedValue tag="date_created" value="2023-03-21 17:37:17"/>
+								<UML:TaggedValue tag="date_modified" value="2023-04-16 22:36:06"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Projektowanie gier"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="danio"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="572"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:UseCase>
+						<UML:Dependency client="EAID_7BE84BA9_4C8E_4b29_89E1_71AFA84BC50B" supplier="EAID_3414A408_4A99_4b54_9638_143442E39D84" xmi.id="EAID_1B1A0971_31FD_425a_8DD3_C80AC7DD6D9D" visibility="public">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="invokes"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="invokes"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;Â«invokesÂ»"/>
+								<UML:TaggedValue tag="ea_localid" value="410"/>
+								<UML:TaggedValue tag="ea_sourceName" value="WyA“wietlenie listy swoich gier"/>
+								<UML:TaggedValue tag="ea_targetName" value="UsuniAacie gry"/>
+								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_sourceID" value="574"/>
+								<UML:TaggedValue tag="ea_targetID" value="572"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={9634B0DB-E6C5-4a97-8828-DF16190FE66A}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=invokes;GUID={5FE4AD38-1D82-49f9-BBBC-D4EBDA4DB348};@ENDSTEREO;$DES;$CLT={1B1A0971-31FD-425a-8DD3-C80AC7DD6D9D}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«invokes»"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:UseCase name="Wys&#322;anie zg&#322;oszenia do weryfikacji" xmi.id="EAID_5A0CEF51_28B9_4d38_8100_BCF66985F582" visibility="public" namespace="EAPK_927E3BF6_1874_43c4_9B02_98C9D0A1C478" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Po wcisnieciu, wybrana przez uzykownika [gra] zostanie zaznaczona w systemie do weryfikacji.&#xA;13UCP"/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_927E3BF6_1874_43c4_9B02_98C9D0A1C478"/>
+								<UML:TaggedValue tag="date_created" value="2023-03-19 19:47:22"/>
+								<UML:TaggedValue tag="date_modified" value="2023-04-16 22:35:03"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Projektowanie gier"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="danio"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="573"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:UseCase>
+						<UML:Dependency client="EAID_524002D0_CFC9_42ce_90C7_309226742D4D" supplier="EAID_5A0CEF51_28B9_4d38_8100_BCF66985F582" xmi.id="EAID_E4AABE42_8E61_48e2_BFA6_CC97AE1AF62E" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="414"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Wy&#347;wietlenie zg&#322;osze&#324; gier"/>
+								<UML:TaggedValue tag="ea_targetName" value="Wys&#322;anie zg&#322;oszenia do weryfikacji"/>
+								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_sourceID" value="589"/>
+								<UML:TaggedValue tag="ea_targetID" value="573"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Dependency client="EAID_7BE84BA9_4C8E_4b29_89E1_71AFA84BC50B" supplier="EAID_5A0CEF51_28B9_4d38_8100_BCF66985F582" xmi.id="EAID_F219C72B_EAE1_4bdf_AEE5_3AC791FED405" visibility="public">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="invokes"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="invokes"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;Â«invokesÂ»"/>
+								<UML:TaggedValue tag="ea_localid" value="408"/>
+								<UML:TaggedValue tag="ea_sourceName" value="WyA“wietlenie listy swoich gier"/>
+								<UML:TaggedValue tag="ea_targetName" value="Wys&#322;anie zg&#322;oszenia do weryfikacji"/>
+								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_sourceID" value="574"/>
+								<UML:TaggedValue tag="ea_targetID" value="573"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={F79FAD63-F809-4d6a-98D6-1DC58733A340}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=invokes;GUID={5FE4AD38-1D82-49f9-BBBC-D4EBDA4DB348};@ENDSTEREO;$DES;$CLT={F219C72B-EAE1-4bdf-AEE5-3AC791FED405}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«invokes»"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:UseCase name="WyA“wietlenie listy swoich gier" xmi.id="EAID_7BE84BA9_4C8E_4b29_89E1_71AFA84BC50B" visibility="public" namespace="EAPK_927E3BF6_1874_43c4_9B02_98C9D0A1C478" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Po wybraniu przez uzykownika opcji listy gier, zostanie lista pobrana z serwera i wyswietlona uzytkownikowi.&#xA;13UCP"/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_927E3BF6_1874_43c4_9B02_98C9D0A1C478"/>
+								<UML:TaggedValue tag="date_created" value="2023-03-16 00:31:17"/>
+								<UML:TaggedValue tag="date_modified" value="2023-04-16 22:15:56"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Projektowanie gier"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="oskar"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="tpos" value="16"/>
+								<UML:TaggedValue tag="ea_localid" value="574"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:UseCase>
+						<UML:Dependency client="EAID_7BE84BA9_4C8E_4b29_89E1_71AFA84BC50B" supplier="EAID_8148BC06_E5B4_4f58_BC9A_10B0CB1B9E8C" xmi.id="EAID_519158ED_48D3_4e7d_BB97_C808B0400946" visibility="public">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="invokes"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Dependency"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="stereotype" value="invokes"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="conditional" value=" &#xA;Â«invokesÂ»"/>
+								<UML:TaggedValue tag="ea_localid" value="407"/>
+								<UML:TaggedValue tag="ea_sourceName" value="WyA“wietlenie listy swoich gier"/>
+								<UML:TaggedValue tag="ea_targetName" value="Stworzenie nowej gry"/>
+								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_sourceID" value="574"/>
+								<UML:TaggedValue tag="ea_targetID" value="575"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={26B4B762-123C-47e5-BF45-42CD0714EF41}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=invokes;GUID={5FE4AD38-1D82-49f9-BBBC-D4EBDA4DB348};@ENDSTEREO;$DES;$CLT={519158ED-48D3-4e7d-BB97-C808B0400946}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="mb" value=" &#xA;«invokes»"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Association xmi.id="EAID_CCE8D806_D6D7_40ec_B670_F14F9D625F17" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Association"/>
+								<UML:TaggedValue tag="direction" value="Unspecified"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="406"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Projektant gier"/>
+								<UML:TaggedValue tag="ea_targetName" value="WyA“wietlenie listy swoich gier"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
+								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_sourceID" value="417"/>
+								<UML:TaggedValue tag="ea_targetID" value="574"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_D78FDAD8_D823_4693_8D8C_2E1C4F274F19">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="containment" value="Unspecified"/>
+										<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+										<UML:TaggedValue tag="ea_end" value="source"/>
+									</UML:ModelElement.taggedValue>
+								</UML:AssociationEnd>
+								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_7BE84BA9_4C8E_4b29_89E1_71AFA84BC50B">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="containment" value="Unspecified"/>
+										<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+										<UML:TaggedValue tag="ea_end" value="target"/>
+									</UML:ModelElement.taggedValue>
+								</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:UseCase name="Stworzenie nowej gry" xmi.id="EAID_8148BC06_E5B4_4f58_BC9A_10B0CB1B9E8C" visibility="public" namespace="EAPK_927E3BF6_1874_43c4_9B02_98C9D0A1C478" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Przycisk stworzenia nowej [gry], wygeneruje nowa pozycje na liscie. Bedzie to pusta [gra] na liscie.&#xA;21UCP"/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_927E3BF6_1874_43c4_9B02_98C9D0A1C478"/>
+								<UML:TaggedValue tag="date_created" value="2023-03-16 00:31:47"/>
+								<UML:TaggedValue tag="date_modified" value="2023-04-16 22:35:21"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Projektowanie gier"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="oskar"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="tpos" value="9"/>
+								<UML:TaggedValue tag="ea_localid" value="575"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:UseCase>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:Diagram name="Projektowanie gier" xmi.id="EAID_4602D037_5EA9_43cb_ACEE_89B278FE8571" diagramType="UseCaseDiagram" owner="EAPK_927E3BF6_1874_43c4_9B02_98C9D0A1C478" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Michal"/>
+				<UML:TaggedValue tag="created_date" value="2023-03-21 18:37:24"/>
+				<UML:TaggedValue tag="modified_date" value="2023-04-16 22:36:45"/>
+				<UML:TaggedValue tag="package" value="EAPK_927E3BF6_1874_43c4_9B02_98C9D0A1C478"/>
+				<UML:TaggedValue tag="type" value="Use Case"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
+				<UML:TaggedValue tag="ea_localid" value="58"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=827;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=D2CCCCE5;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=113;Top=251;Right=218;Bottom=321;" subject="EAID_3414A408_4A99_4b54_9638_143442E39D84" seqno="1" style="DUID=82DB7AB0;NSL=0;"/>
+				<UML:DiagramElement geometry="Left=265;Top=193;Right=370;Bottom=263;" subject="EAID_21D1033B_CAE5_460d_9A73_45221CEF0904" seqno="2" style="DUID=98DA16C8;NSL=0;"/>
+				<UML:DiagramElement geometry="Left=446;Top=241;Right=551;Bottom=311;" subject="EAID_5A0CEF51_28B9_4d38_8100_BCF66985F582" seqno="3" style="DUID=D9935881;NSL=0;"/>
+				<UML:DiagramElement geometry="Left=30;Top=358;Right=147;Bottom=436;" subject="EAID_8148BC06_E5B4_4f58_BC9A_10B0CB1B9E8C" seqno="4" style="DUID=21BB70C3;NSL=0;"/>
+				<UML:DiagramElement geometry="Left=202;Top=354;Right=322;Bottom=434;" subject="EAID_7BE84BA9_4C8E_4b29_89E1_71AFA84BC50B" seqno="5" style="DUID=AD0AD79B;NSL=0;"/>
+				<UML:DiagramElement geometry="Left=324;Top=532;Right=369;Bottom=622;" subject="EAID_D78FDAD8_D823_4693_8D8C_2E1C4F274F19" seqno="6" style="DUID=A6E069B1;NSL=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=46:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_B9529E76_2762_4a53_9C00_517E5BF889D9" style="Mode=3;EOID=98DA16C8;SOID=AD0AD79B;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=46:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_1B1A0971_31FD_425a_8DD3_C80AC7DD6D9D" style="Mode=3;EOID=82DB7AB0;SOID=AD0AD79B;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=46:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_F219C72B_EAE1_4bdf_AEE5_3AC791FED405" style="Mode=3;EOID=D9935881;SOID=AD0AD79B;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=CX=46:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_519158ED_48D3_4e7d_BB97_C808B0400946" style="Mode=3;EOID=21BB70C3;SOID=AD0AD79B;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_CCE8D806_D6D7_40ec_B670_F14F9D625F17" style="Mode=3;EOID=AD0AD79B;SOID=A6E069B1;Color=-1;LWidth=0;Hidden=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
+		<EAModel.scenario>
+			<EAScenario name="Basic Path" type="Basic Path" weight="0,00" subject="EAID_21D1033B_CAE5_460d_9A73_45221CEF0904" xmi.id="EAID_03B160BA_7696_4625_B203_E434B3D0493F">
+				<EAScenarioContent>
+					<path>
+						<step name="Projektant gier wybiera opcj&#281; 'Edytuj gr&#281;'" guid="{EBE8DBD6-653F-46f1-B26D-3BA6D1A69A26}" level="1" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="System wy&#347;wietla okno edycji gry" guid="{5476293E-1594-4672-ACA5-51EDC770A288}" level="2" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<step name="Projektant gier edytuje gr&#281;" guid="{BFDDE384-D487-4cc2-B57D-A6F8962C4908}" level="3" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="Projektant gier wybiera opcj&#281; 'Zapisz'" guid="{453F2ED6-7EC4-4464-ABB4-3E2A49EBFC3A}" level="4" uses="" useslist="" result="" state="" trigger="1" link="">
+							<extension level="4a" guid="{54AC3CE4-06E8-4813-AE63-6F5A0D930BB6}" join="End"/>
+						</step>
+						<step name="System zapisuje zedytowan&#261; gr&#281;" guid="{7C055598-2205-452b-9924-143EF7DD5B42}" level="5" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<context>
+							<item oldname="WyA“wietlenie listy swoich gier" guid="{7BE84BA9-4C8E-4b29-89E1-71AFA84BC50B}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="Zamkni&#281;cie okna" type="Alternate" weight="1,00" subject="EAID_21D1033B_CAE5_460d_9A73_45221CEF0904" xmi.id="EAID_54AC3CE4_06E8_4813_AE63_6F5A0D930BB6">
+				<EAScenarioContent>
+					<path>
+						<step name="Projektant gier zamyka okno" guid="{E6CD97FD-C07B-4792-A9E0-23F8C4E0F54A}" level="1" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="System nie zapisuje zmian" guid="{1CAA6A91-AA3D-4180-A248-A9568C1C9A71}" level="2" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<context>
+							<item oldname="WyA“wietlenie listy swoich gier" guid="{7BE84BA9-4C8E-4b29-89E1-71AFA84BC50B}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="Anulowanie" type="Alternate" weight="1,00" subject="EAID_3414A408_4A99_4b54_9638_143442E39D84" xmi.id="EAID_A99D7AE9_CB48_4283_9619_AB807EADB5C6">
+				<EAScenarioContent>
+					<path>
+						<step name="Projektant gier anuluje usuni&#281;cie gry" guid="{BCD16468-6589-4db8-9C03-4373CD92E850}" level="1" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="System zamyka okno potwierdzenia usuni&#281;cia gry" guid="{0B03CFC6-AF25-4060-8C7F-53630EC91771}" level="2" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<context>
+							<item oldname="WyA“wietlenie listy swoich gier" guid="{7BE84BA9-4C8E-4b29-89E1-71AFA84BC50B}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="Basic Path" type="Basic Path" weight="0,00" subject="EAID_3414A408_4A99_4b54_9638_143442E39D84" xmi.id="EAID_70D391ED_7A31_4cfc_A364_DA2925CE4880">
+				<EAScenarioContent>
+					<path>
+						<step name="Projektant gier wybiera opcj&#281; 'Usu&#324; gr&#281;' z listy gier" guid="{62D8835D-E124-41b3-B309-F46A1DF573F1}" level="1" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="System wy&#347;wietla okno potwierdzenia usuni&#281;cia gry" guid="{FE8CA71C-DF55-41ae-9F1F-3C9B5E2A84DD}" level="2" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<step name="Projektant gier potwierdza usuni&#281;cie gry" guid="{3DE15A15-B61C-4fe5-8BB2-2CDEB7D0AA4A}" level="3" uses="" useslist="" result="" state="" trigger="1" link="">
+							<extension level="3a" guid="{A99D7AE9-CB48-4283-9619-AB807EADB5C6}" join="End"/>
+						</step>
+						<step name="System usuwa gr&#281;" guid="{A02769CA-52E4-4981-9396-C3EA4965D8C1}" level="4" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<context>
+							<item oldname="WyA“wietlenie listy swoich gier" guid="{7BE84BA9-4C8E-4b29-89E1-71AFA84BC50B}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="Anulowanie" type="Alternate" weight="1,00" subject="EAID_5A0CEF51_28B9_4d38_8100_BCF66985F582" xmi.id="EAID_6C46BEED_1394_4d6c_99F3_5C7E5E44DF9A">
+				<EAScenarioContent>
+					<path>
+						<step name="Projektant gier wybiera opcj&#281; 'Anuluj'" guid="{0F522797-070A-4445-B243-0993C7DAD7E9}" level="1" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<step name="System zamyka okno potwierdzenia wys&#322;ania zg&#322;oszenia do weryfikacji" guid="{AAB67313-5FA6-47ba-9C57-1472EC6C73B3}" level="2" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<context>
+							<item oldname="WyA“wietlenie listy swoich gier" guid="{7BE84BA9-4C8E-4b29-89E1-71AFA84BC50B}"/>
+							<item oldname="Wy&#347;wietlenie zg&#322;osze&#324; gier" guid="{524002D0-CFC9-42ce-90C7-309226742D4D}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="Basic Path" type="Basic Path" weight="0,00" subject="EAID_5A0CEF51_28B9_4d38_8100_BCF66985F582" xmi.id="EAID_9B2CAA50_2848_489e_BE51_E4496F62E571">
+				<EAScenarioContent>
+					<path>
+						<step name="Projektant gier wybiera opcj&#281; 'Wy&#347;lij zg&#322;oszenie do weryfikacji' z listy gier" guid="{413C76C6-B1D8-42e0-8CE4-5CAED5051BED}" level="1" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="System wy&#347;wietla okno potwierdzenia wys&#322;ania zg&#322;oszenia" guid="{037506C2-B737-4962-BBF8-31FCD4FDE700}" level="2" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<step name="Projektant gier potwierdza usuni&#281;cie gry" guid="{2BC79CC8-AAC1-44aa-85D3-5947BCA71D4F}" level="3" uses="" useslist="" result="" state="" trigger="1" link="">
+							<extension level="3a" guid="{6C46BEED-1394-4d6c-99F3-5C7E5E44DF9A}" join="End"/>
+						</step>
+						<step name="System wysy&#322;a gr&#281; do weryfikacji" guid="{4D2C8FAA-2FCF-4421-87CD-4713231D972E}" level="4" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<step name="System dodaje p&#322;atno&#347;&#263; do listy p&#322;atno&#347;ci projektanta gier" guid="{B5E2D293-660C-4d65-B561-25F79BCCA06A}" level="5" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<context>
+							<item oldname="WyA“wietlenie listy swoich gier" guid="{7BE84BA9-4C8E-4b29-89E1-71AFA84BC50B}"/>
+							<item oldname="Wy&#347;wietlenie zg&#322;osze&#324; gier" guid="{524002D0-CFC9-42ce-90C7-309226742D4D}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="Basic Path" type="Basic Path" weight="0,00" subject="EAID_7BE84BA9_4C8E_4b29_89E1_71AFA84BC50B" xmi.id="EAID_87348D0D_E82E_49a5_9AF5_FD196333503C">
+				<EAScenarioContent>
+					<path>
+						<step name="Projektant gier wybiera opcj&#281; &quot;Wy&#347;wietl liste swoich gier&quot;" guid="{EEAC7478-0D9F-4164-929B-6177CBA4182B}" level="1" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="System wy&#347;wietla list&#281; gier" guid="{32A28D2B-4DE3-4cbd-B968-13F7BB697D8D}" level="2" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<context>
+							<item oldname="Edycja gry" guid="{21D1033B-CAE5-460d-9A73-45221CEF0904}"/>
+							<item oldname="UsuniAacie gry" guid="{3414A408-4A99-4b54-9638-143442E39D84}"/>
+							<item oldname="Projektant gier" guid="{D78FDAD8-D823-4693-8D8C-2E1C4F274F19}"/>
+							<item oldname="Wys&#322;anie zg&#322;oszenia do weryfikacji" guid="{5A0CEF51-28B9-4d38-8100-BCF66985F582}"/>
+							<item oldname="Stworzenie nowej gry" guid="{8148BC06-E5B4-4f58-BC9A-10B0CB1B9E8C}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="B&#322;&#281;dne dane" type="Alternate" weight="1,00" subject="EAID_8148BC06_E5B4_4f58_BC9A_10B0CB1B9E8C" xmi.id="EAID_03F196D1_E1E1_498a_BC73_D5D756A01641">
+				<EAScenarioContent>
+					<path>
+						<step name="System wy&#347;wietla komunikat o tym, &#380;e nazwa jest ju&#380; zaj&#281;ta" guid="{E00CBE3F-FBD9-46ac-949D-3D504FFCB196}" level="1" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<context>
+							<item oldname="WyA“wietlenie listy swoich gier" guid="{7BE84BA9-4C8E-4b29-89E1-71AFA84BC50B}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="Basic Path" type="Basic Path" weight="0,00" subject="EAID_8148BC06_E5B4_4f58_BC9A_10B0CB1B9E8C" xmi.id="EAID_884A0167_DD4F_48d2_B5A0_F364F245BB31">
+				<EAScenarioContent>
+					<path>
+						<step name="Projektant gier wybiera opcj&#281; 'Stwórz now&#261; gre'" guid="{CA1C911D-2CE2-4017-A9C2-7021C2176DC9}" level="1" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="System wy&#347;wietla pusty formularz do wype&#322;nienia z informacj&#261; o nazwie gry, krótkim opisie" guid="{17051747-64B9-4940-847A-51963C78C0B3}" level="2" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<step name="Projektant gier wype&#322;nia formularz" guid="{0CE939CC-ECEA-4749-927F-D2C08A64613D}" level="3" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="Projektant gier wybiera opcj&#281; 'Stwórz gr&#281;'" guid="{DC0B668E-0640-4ea1-90CB-2D91F94769E2}" level="4" uses="" useslist="" result="" state="" trigger="1" link=""/>
+						<step name="System waliduje dane formularza" guid="{5D9C507C-6A06-42d2-B123-0AB779CBBBF7}" level="5" uses="" useslist="" result="" state="" trigger="0" link="">
+							<extension level="5a" guid="{03F196D1-E1E1-498a-BC73-D5D756A01641}" join="{17051747-64B9-4940-847A-51963C78C0B3}"/>
+						</step>
+						<step name="System tworzy pust&#261; gr&#281;" guid="{DF1DBF21-C964-4f42-BEE1-085A5D46ED20}" level="6" uses="" useslist="" result="" state="" trigger="0" link=""/>
+						<context>
+							<item oldname="WyA“wietlenie listy swoich gier" guid="{7BE84BA9-4C8E-4b29-89E1-71AFA84BC50B}"/>
+						</context>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+		</EAModel.scenario>
+		<EAStub xmi.id="EAID_524002D0_CFC9_42ce_90C7_309226742D4D" name="Wy&#347;wietlenie zg&#322;osze&#324; gier" UMLType="UseCase"/>
+		<EAStub xmi.id="EAID_D78FDAD8_D823_4693_8D8C_2E1C4F274F19" name="Projektant gier" UMLType="Actor"/>
+		<EAModel.paramSub/>
+	</XMI.extensions>
+</XMI>
