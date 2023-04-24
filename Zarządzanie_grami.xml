@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1252"?>
-<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2023-04-15 18:21:14">
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2023-04-23 21:12:02">
 	<XMI.header>
 		<XMI.documentation>
 			<XMI.exporter>Enterprise Architect</XMI.exporter>
@@ -16,11 +16,16 @@
 						<UML:TaggedValue tag="created" value="2023-03-21 18:38:27"/>
 						<UML:TaggedValue tag="modified" value="2023-03-21 18:38:27"/>
 						<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+						<UML:TaggedValue tag="lastloaddate" value="2023-04-16 22:13:00"/>
+						<UML:TaggedValue tag="lastsavedate" value="2023-04-16 22:13:00"/>
 						<UML:TaggedValue tag="version" value="1.0"/>
 						<UML:TaggedValue tag="isprotected" value="FALSE"/>
 						<UML:TaggedValue tag="usedtd" value="FALSE"/>
 						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
 						<UML:TaggedValue tag="packageFlags" value="CRC=0;"/>
+						<UML:TaggedValue tag="batchsave" value="0"/>
+						<UML:TaggedValue tag="batchload" value="0"/>
 						<UML:TaggedValue tag="phase" value="1.0"/>
 						<UML:TaggedValue tag="status" value="Proposed"/>
 						<UML:TaggedValue tag="author" value="Michal"/>
@@ -30,6 +35,551 @@
 						<UML:TaggedValue tag="gentype" value="Java"/>
 					</UML:ModelElement.taggedValue>
 					<UML:Namespace.ownedElement>
+						<UML:Collaboration xmi.id="EAID_CF29D4DC_E2C7_4d14_B6E0_3EB60A5E8E89_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="Przejd&#378; do zasobów" xmi.id="EAID_01BDADDB_2B93_4132_9846_5D90CABC9AC0" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="panel"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CF29D4DC_E2C7_4d14_B6E0_3EB60A5E8E89"/>
+										<UML:TaggedValue tag="owner" value="EAID_12D1C519_2F33_4eca_AA59_07DE13FCA48F"/>
+										<UML:TaggedValue tag="date_created" value="2023-04-23 21:07:29"/>
+										<UML:TaggedValue tag="date_modified" value="2023-04-23 21:07:41"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Zarz&#261;dzanie grami"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Maciek"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="stereotype" value="panel"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="638"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={C67B3907-0C4F-4de1-96D3-84C995EAAC90}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=panel;FQName=EAUI::panel;@ENDSTEREO;$DES;$CLT={01BDADDB-2B93-4132-9846-5D90CABC9AC0}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Gry" xmi.id="EAID_0AA24F6C_0324_41e5_B0E5_0C5E7F95B17E" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="list"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CF29D4DC_E2C7_4d14_B6E0_3EB60A5E8E89"/>
+										<UML:TaggedValue tag="owner" value="EAID_12D1C519_2F33_4eca_AA59_07DE13FCA48F"/>
+										<UML:TaggedValue tag="date_created" value="2023-04-23 21:04:04"/>
+										<UML:TaggedValue tag="date_modified" value="2023-04-23 21:04:08"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Zarz&#261;dzanie grami"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Maciek"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="stereotype" value="list"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="632"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={DD90C830-2D2B-45e3-9DE0-A454E52CEBF7}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=list;FQName=EAUI::list;@ENDSTEREO;@STEREO;Name=text;FQName=EAUI::text;@ENDSTEREO;@STEREO;Name=button;FQName=EAUI::button;@ENDSTEREO;$DES;$CLT={0AA24F6C-0324-41e5-B0E5-0C5E7F95B17E}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Pomocnicy" xmi.id="EAID_0D682F86_EDD0_4d82_AE70_D4E2EE4403E0" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="text"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CF29D4DC_E2C7_4d14_B6E0_3EB60A5E8E89"/>
+										<UML:TaggedValue tag="owner" value="EAID_D1D7D516_36B4_4ca7_8ACA_2A5B7F689344"/>
+										<UML:TaggedValue tag="date_created" value="2023-04-23 20:58:21"/>
+										<UML:TaggedValue tag="date_modified" value="2023-04-23 20:58:32"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Zarz&#261;dzanie grami"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Maciek"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="stereotype" value="text"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="626"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={D2A368B6-6A5E-403e-9C88-890B09DFC14A}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=text;FQName=EAUI::text;@ENDSTEREO;$DES;$CLT={0D682F86-EDD0-4d82-AE70-D4E2EE4403E0}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Zasoby gry" xmi.id="EAID_11637EAF_E73A_47b1_899F_A8AE9F07E49D" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Screen"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CF29D4DC_E2C7_4d14_B6E0_3EB60A5E8E89"/>
+										<UML:TaggedValue tag="owner" value="EAID_4212CD3E_5CB8_4ac5_8921_9AFD2140A547"/>
+										<UML:TaggedValue tag="date_created" value="2023-04-23 20:51:24"/>
+										<UML:TaggedValue tag="date_modified" value="2023-04-23 20:51:34"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Zarz&#261;dzanie grami"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Maciek"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="619"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Panel zarz&#261;dczy gier" xmi.id="EAID_12D1C519_2F33_4eca_AA59_07DE13FCA48F" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Screen"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CF29D4DC_E2C7_4d14_B6E0_3EB60A5E8E89"/>
+										<UML:TaggedValue tag="owner" value="EAID_C90D500B_9DDE_4d27_90EC_D125CA5A33E6"/>
+										<UML:TaggedValue tag="date_created" value="2023-04-23 21:03:47"/>
+										<UML:TaggedValue tag="date_modified" value="2023-04-23 21:03:54"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Zarz&#261;dzanie grami"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Maciek"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="631"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Nazwa: gra1" xmi.id="EAID_27726D9D_C314_4351_9ECD_4D210E98FE86" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="text"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CF29D4DC_E2C7_4d14_B6E0_3EB60A5E8E89"/>
+										<UML:TaggedValue tag="owner" value="EAID_11637EAF_E73A_47b1_899F_A8AE9F07E49D"/>
+										<UML:TaggedValue tag="date_created" value="2023-04-23 20:57:33"/>
+										<UML:TaggedValue tag="date_modified" value="2023-04-23 20:57:46"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Zarz&#261;dzanie grami"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Maciek"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="stereotype" value="text"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="625"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={28423EF0-85AC-4516-8186-B365AB2E727A}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=text;FQName=EAUI::text;@ENDSTEREO;$DES;$CLT={27726D9D-C314-4351-9ECD-4D210E98FE86}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="G7" xmi.id="EAID_425B695B_9469_4a1d_B21B_F91299BB7F14" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="button"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CF29D4DC_E2C7_4d14_B6E0_3EB60A5E8E89"/>
+										<UML:TaggedValue tag="owner" value="EAID_0AA24F6C_0324_41e5_B0E5_0C5E7F95B17E"/>
+										<UML:TaggedValue tag="date_created" value="2023-04-23 21:05:02"/>
+										<UML:TaggedValue tag="date_modified" value="2023-04-23 21:06:59"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Zarz&#261;dzanie grami"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Maciek"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="stereotype" value="button"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="635"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={68C0AB4E-C155-4d22-BDFC-6816485C6644}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=button;FQName=EAUI::button;@ENDSTEREO;$DES;$CLT={425B695B-9469-4a1d-B21B-F91299BB7F14}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="XYZ" xmi.id="EAID_47655E3E_A2D4_43e1_9018_E36541EA1D6F" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="button"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CF29D4DC_E2C7_4d14_B6E0_3EB60A5E8E89"/>
+										<UML:TaggedValue tag="owner" value="EAID_0AA24F6C_0324_41e5_B0E5_0C5E7F95B17E"/>
+										<UML:TaggedValue tag="date_created" value="2023-04-23 21:05:12"/>
+										<UML:TaggedValue tag="date_modified" value="2023-04-23 21:07:10"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Zarz&#261;dzanie grami"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Maciek"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="stereotype" value="button"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="637"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={EFD8B025-1485-4cbb-BD11-0FA473BAEB59}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=button;FQName=EAUI::button;@ENDSTEREO;$DES;$CLT={47655E3E-A2D4-43e1-9018-E36541EA1D6F}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="&#346;cianki" xmi.id="EAID_49CE7D24_7EA5_4148_9A30_5FCB63F9AAD0" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="text"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CF29D4DC_E2C7_4d14_B6E0_3EB60A5E8E89"/>
+										<UML:TaggedValue tag="owner" value="EAID_D1D7D516_36B4_4ca7_8ACA_2A5B7F689344"/>
+										<UML:TaggedValue tag="date_created" value="2023-04-23 20:59:18"/>
+										<UML:TaggedValue tag="date_modified" value="2023-04-23 20:59:22"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Zarz&#261;dzanie grami"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Maciek"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="stereotype" value="text"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="627"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={C78DFCD3-DA6A-4811-A287-F80995FB15DA}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=text;FQName=EAUI::text;@ENDSTEREO;$DES;$CLT={49CE7D24-7EA5-4148-9A30-5FCB63F9AAD0}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Zasób" xmi.id="EAID_74B9B2C0_3DCF_49be_AA8B_6612305EC8CE" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="text"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CF29D4DC_E2C7_4d14_B6E0_3EB60A5E8E89"/>
+										<UML:TaggedValue tag="owner" value="EAID_D1D7D516_36B4_4ca7_8ACA_2A5B7F689344"/>
+										<UML:TaggedValue tag="date_created" value="2023-04-23 21:01:15"/>
+										<UML:TaggedValue tag="date_modified" value="2023-04-23 21:01:19"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Zarz&#261;dzanie grami"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Maciek"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="stereotype" value="text"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="628"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={028E4FBB-088E-4396-A564-EEFE04D7E22E}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=text;FQName=EAUI::text;@ENDSTEREO;$DES;$CLT={74B9B2C0-3DCF-49be-AA8B-6612305EC8CE}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Specyfikacja zasobów gier" xmi.id="EAID_9207F00A_C7B9_4b88_B55E_31D9C29DF5AE" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="button"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CF29D4DC_E2C7_4d14_B6E0_3EB60A5E8E89"/>
+										<UML:TaggedValue tag="owner" value="EAID_12D1C519_2F33_4eca_AA59_07DE13FCA48F"/>
+										<UML:TaggedValue tag="date_created" value="2023-04-23 21:08:13"/>
+										<UML:TaggedValue tag="date_modified" value="2023-04-23 21:08:35"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Zarz&#261;dzanie grami"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Maciek"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="stereotype" value="button"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="639"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={FBF37E17-3A8B-451e-8A7A-000AC91D28A6}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=button;FQName=EAUI::button;@ENDSTEREO;$DES;$CLT={9207F00A-C7B9-4b88-B55E-31D9C29DF5AE}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="G1" xmi.id="EAID_947935CE_496C_431c_AAB7_1FB35C907DD8" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="button"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CF29D4DC_E2C7_4d14_B6E0_3EB60A5E8E89"/>
+										<UML:TaggedValue tag="owner" value="EAID_0AA24F6C_0324_41e5_B0E5_0C5E7F95B17E"/>
+										<UML:TaggedValue tag="date_created" value="2023-04-23 21:04:36"/>
+										<UML:TaggedValue tag="date_modified" value="2023-04-23 21:06:52"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Zarz&#261;dzanie grami"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Maciek"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="stereotype" value="button"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="633"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={244AB089-1F46-42b0-B1F8-1C39DB319F16}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=button;FQName=EAUI::button;@ENDSTEREO;$DES;$CLT={947935CE-496C-431c-AAB7-1FB35C907DD8}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Wy&#347;wietl zg&#322;oszenia" xmi.id="EAID_95535988_6E51_4c94_A942_1E602DDE96C3" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="button"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CF29D4DC_E2C7_4d14_B6E0_3EB60A5E8E89"/>
+										<UML:TaggedValue tag="owner" value="EAID_12D1C519_2F33_4eca_AA59_07DE13FCA48F"/>
+										<UML:TaggedValue tag="date_created" value="2023-04-23 21:08:57"/>
+										<UML:TaggedValue tag="date_modified" value="2023-04-23 21:09:09"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Zarz&#261;dzanie grami"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Maciek"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="stereotype" value="button"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="640"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={672FF6B7-D7F7-4e63-8ACF-02CCCE443D2F}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=button;FQName=EAUI::button;@ENDSTEREO;$DES;$CLT={95535988-6E51-4c94-A942-1E602DDE96C3}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Ilo&#347;&#263;" xmi.id="EAID_C05FD3D8_B0C8_4832_902C_29C498DC926C" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="text"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CF29D4DC_E2C7_4d14_B6E0_3EB60A5E8E89"/>
+										<UML:TaggedValue tag="owner" value="EAID_D1D7D516_36B4_4ca7_8ACA_2A5B7F689344"/>
+										<UML:TaggedValue tag="date_created" value="2023-04-23 21:02:09"/>
+										<UML:TaggedValue tag="date_modified" value="2023-04-23 21:02:15"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Zarz&#261;dzanie grami"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Maciek"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="stereotype" value="text"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="630"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={3993125B-FDBE-44b4-ACAB-AFDD79CD6A29}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=text;FQName=EAUI::text;@ENDSTEREO;$DES;$CLT={C05FD3D8-B0C8-4832-902C-29C498DC926C}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="G2" xmi.id="EAID_C37C4134_66F3_471f_A1E8_9FF54E8AB9B4" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="button"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CF29D4DC_E2C7_4d14_B6E0_3EB60A5E8E89"/>
+										<UML:TaggedValue tag="owner" value="EAID_0AA24F6C_0324_41e5_B0E5_0C5E7F95B17E"/>
+										<UML:TaggedValue tag="date_created" value="2023-04-23 21:04:58"/>
+										<UML:TaggedValue tag="date_modified" value="2023-04-23 21:06:56"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Zarz&#261;dzanie grami"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Maciek"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="stereotype" value="button"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="634"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={8EA92368-E216-41a8-8892-8E612CD4A265}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=button;FQName=EAUI::button;@ENDSTEREO;$DES;$CLT={C37C4134-66F3-471f-A1E8-9FF54E8AB9B4}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Zapisz" xmi.id="EAID_CC76791C_2D46_43a6_8121_EB112C79825A" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="button"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CF29D4DC_E2C7_4d14_B6E0_3EB60A5E8E89"/>
+										<UML:TaggedValue tag="owner" value="EAID_11637EAF_E73A_47b1_899F_A8AE9F07E49D"/>
+										<UML:TaggedValue tag="date_created" value="2023-04-23 20:54:43"/>
+										<UML:TaggedValue tag="date_modified" value="2023-04-23 20:54:46"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Zarz&#261;dzanie grami"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Maciek"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="stereotype" value="button"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="622"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={10644394-F09F-42c9-A0D2-5A39AD28047F}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=button;FQName=EAUI::button;@ENDSTEREO;$DES;$CLT={CC76791C-2D46-43a6-8121-EB112C79825A}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Beacon" xmi.id="EAID_D1956AC2_B52D_406c_9BD5_BEFBDA456FE7" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="text"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CF29D4DC_E2C7_4d14_B6E0_3EB60A5E8E89"/>
+										<UML:TaggedValue tag="owner" value="EAID_D1D7D516_36B4_4ca7_8ACA_2A5B7F689344"/>
+										<UML:TaggedValue tag="date_created" value="2023-04-23 20:55:30"/>
+										<UML:TaggedValue tag="date_modified" value="2023-04-23 20:58:05"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Zarz&#261;dzanie grami"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Maciek"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="stereotype" value="text"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="623"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={4FA65E63-682D-4ff6-86FD-2A34B0AA5AD7}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=text;FQName=EAUI::text;@ENDSTEREO;$DES;$CLT={D1956AC2-B52D-406c-9BD5-BEFBDA456FE7}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="UI Control" xmi.id="EAID_D1D7D516_36B4_4ca7_8ACA_2A5B7F689344" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="table"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CF29D4DC_E2C7_4d14_B6E0_3EB60A5E8E89"/>
+										<UML:TaggedValue tag="owner" value="EAID_11637EAF_E73A_47b1_899F_A8AE9F07E49D"/>
+										<UML:TaggedValue tag="date_created" value="2023-04-23 20:52:56"/>
+										<UML:TaggedValue tag="date_modified" value="2023-04-23 20:54:43"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Zarz&#261;dzanie grami"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Maciek"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="stereotype" value="table"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="621"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=32768;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={32C226F3-F27B-4373-A2C2-E4851A056CC9}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=table;FQName=EAUI::table;@ENDSTEREO;@STEREO;Name=text;FQName=EAUI::text;@ENDSTEREO;$DES;$CLT={D1D7D516-36B4-4ca7-8ACA-2A5B7F689344}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="GG1" xmi.id="EAID_FC9DFBE1_9305_47e8_89BB_7A8415FA5D12" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="button"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="GUIElement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CF29D4DC_E2C7_4d14_B6E0_3EB60A5E8E89"/>
+										<UML:TaggedValue tag="owner" value="EAID_0AA24F6C_0324_41e5_B0E5_0C5E7F95B17E"/>
+										<UML:TaggedValue tag="date_created" value="2023-04-23 21:05:07"/>
+										<UML:TaggedValue tag="date_modified" value="2023-04-23 21:07:03"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Zarz&#261;dzanie grami"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Maciek"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="stereotype" value="button"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="636"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={558793CD-B64B-413c-8243-901A1475F721}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=button;FQName=EAUI::button;@ENDSTEREO;$DES;$CLT={FC9DFBE1-9305-47e8-89BB-7A8415FA5D12}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
 						<UML:UseCase name="Specyfikacja zasobów dost&#281;pnych do projektowania gier" xmi.id="EAID_4212CD3E_5CB8_4ac5_8921_9AFD2140A547" visibility="public" namespace="EAPK_CF29D4DC_E2C7_4d14_B6E0_3EB60A5E8E89" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="Zarz&#261;dca gier powinien mie&#263; opcj&#281; wyspecyfikowania zasobów dost&#281;pnych do&#xA;projektowania gier. W danych lokacjach firmy mog&#261; by&#263; dost&#281;pne ró&#380;ne zasoby.&#xA;Zasoby mog&#261; by&#263; dodawane lub usuwane oddzielnie dla ka&#380;dej lokacji.&#xA;Przyk&#322;adowe zasoby to np. skrzynie (z odblokowaniem przez NFC/Bluetooth),&#xA;zamki (na klucz/Bluetooth).&#xA;21UCP"/>
@@ -40,7 +590,7 @@
 								<UML:TaggedValue tag="isActive" value="false"/>
 								<UML:TaggedValue tag="package" value="EAPK_CF29D4DC_E2C7_4d14_B6E0_3EB60A5E8E89"/>
 								<UML:TaggedValue tag="date_created" value="2023-03-16 00:33:22"/>
-								<UML:TaggedValue tag="date_modified" value="2023-04-15 18:05:47"/>
+								<UML:TaggedValue tag="date_modified" value="2023-04-23 20:44:41"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="Zarz&#261;dzanie grami"/>
@@ -48,7 +598,7 @@
 								<UML:TaggedValue tag="author" value="oskar"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="tpos" value="6"/>
-								<UML:TaggedValue tag="ea_localid" value="439"/>
+								<UML:TaggedValue tag="ea_localid" value="588"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
@@ -69,13 +619,13 @@
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="conditional" value=" &#xA;«invokes»"/>
-								<UML:TaggedValue tag="ea_localid" value="249"/>
+								<UML:TaggedValue tag="ea_localid" value="418"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Wy&#347;wietlenie panelu zarz&#261;dczego gier"/>
 								<UML:TaggedValue tag="ea_targetName" value="Specyfikacja zasobów dost&#281;pnych do projektowania gier"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
-								<UML:TaggedValue tag="ea_sourceID" value="440"/>
-								<UML:TaggedValue tag="ea_targetID" value="439"/>
+								<UML:TaggedValue tag="ea_sourceID" value="591"/>
+								<UML:TaggedValue tag="ea_targetID" value="588"/>
 								<UML:TaggedValue tag="src_visibility" value="Public"/>
 								<UML:TaggedValue tag="src_aggregation" value="0"/>
 								<UML:TaggedValue tag="src_isOrdered" value="false"/>
@@ -115,7 +665,7 @@
 								<UML:TaggedValue tag="author" value="oskar"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="tpos" value="26"/>
-								<UML:TaggedValue tag="ea_localid" value="436"/>
+								<UML:TaggedValue tag="ea_localid" value="589"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
@@ -136,13 +686,13 @@
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="conditional" value=" &#xA;«invokes»"/>
-								<UML:TaggedValue tag="ea_localid" value="246"/>
+								<UML:TaggedValue tag="ea_localid" value="417"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Wy&#347;wietlenie zg&#322;osze&#324; gier"/>
 								<UML:TaggedValue tag="ea_targetName" value="Dokonanie weryfikacji gry"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
-								<UML:TaggedValue tag="ea_sourceID" value="436"/>
-								<UML:TaggedValue tag="ea_targetID" value="437"/>
+								<UML:TaggedValue tag="ea_sourceID" value="589"/>
+								<UML:TaggedValue tag="ea_targetID" value="590"/>
 								<UML:TaggedValue tag="src_visibility" value="Public"/>
 								<UML:TaggedValue tag="src_aggregation" value="0"/>
 								<UML:TaggedValue tag="src_isOrdered" value="false"/>
@@ -180,13 +730,13 @@
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="conditional" value=" &#xA;«invokes»"/>
-								<UML:TaggedValue tag="ea_localid" value="247"/>
+								<UML:TaggedValue tag="ea_localid" value="416"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Wy&#347;wietlenie zg&#322;osze&#324; gier"/>
 								<UML:TaggedValue tag="ea_targetName" value="Dokonanie wyceny gry"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
-								<UML:TaggedValue tag="ea_sourceID" value="436"/>
-								<UML:TaggedValue tag="ea_targetID" value="438"/>
+								<UML:TaggedValue tag="ea_sourceID" value="589"/>
+								<UML:TaggedValue tag="ea_targetID" value="592"/>
 								<UML:TaggedValue tag="src_visibility" value="Public"/>
 								<UML:TaggedValue tag="src_aggregation" value="0"/>
 								<UML:TaggedValue tag="src_isOrdered" value="false"/>
@@ -224,13 +774,13 @@
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="conditional" value=" &#xA;«invokes»"/>
-								<UML:TaggedValue tag="ea_localid" value="248"/>
+								<UML:TaggedValue tag="ea_localid" value="415"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Wy&#347;wietlenie panelu zarz&#261;dczego gier"/>
 								<UML:TaggedValue tag="ea_targetName" value="Wy&#347;wietlenie zg&#322;osze&#324; gier"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
-								<UML:TaggedValue tag="ea_sourceID" value="440"/>
-								<UML:TaggedValue tag="ea_targetID" value="436"/>
+								<UML:TaggedValue tag="ea_sourceID" value="591"/>
+								<UML:TaggedValue tag="ea_targetID" value="589"/>
 								<UML:TaggedValue tag="src_visibility" value="Public"/>
 								<UML:TaggedValue tag="src_aggregation" value="0"/>
 								<UML:TaggedValue tag="src_isOrdered" value="false"/>
@@ -263,13 +813,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="409"/>
+								<UML:TaggedValue tag="ea_localid" value="414"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Wy&#347;wietlenie zg&#322;osze&#324; gier"/>
 								<UML:TaggedValue tag="ea_targetName" value="Wys&#322;anie zg&#322;oszenia do weryfikacji"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
-								<UML:TaggedValue tag="ea_sourceID" value="436"/>
-								<UML:TaggedValue tag="ea_targetID" value="573"/>
+								<UML:TaggedValue tag="ea_sourceID" value="589"/>
+								<UML:TaggedValue tag="ea_targetID" value="597"/>
 								<UML:TaggedValue tag="src_visibility" value="Public"/>
 								<UML:TaggedValue tag="src_aggregation" value="0"/>
 								<UML:TaggedValue tag="src_isOrdered" value="false"/>
@@ -307,7 +857,7 @@
 								<UML:TaggedValue tag="author" value="oskar"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="tpos" value="3"/>
-								<UML:TaggedValue tag="ea_localid" value="437"/>
+								<UML:TaggedValue tag="ea_localid" value="590"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
@@ -322,7 +872,7 @@
 								<UML:TaggedValue tag="isActive" value="false"/>
 								<UML:TaggedValue tag="package" value="EAPK_CF29D4DC_E2C7_4d14_B6E0_3EB60A5E8E89"/>
 								<UML:TaggedValue tag="date_created" value="2023-03-16 00:34:23"/>
-								<UML:TaggedValue tag="date_modified" value="2023-04-15 17:40:29"/>
+								<UML:TaggedValue tag="date_modified" value="2023-04-23 20:44:28"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="Zarz&#261;dzanie grami"/>
@@ -330,7 +880,7 @@
 								<UML:TaggedValue tag="author" value="oskar"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="tpos" value="21"/>
-								<UML:TaggedValue tag="ea_localid" value="440"/>
+								<UML:TaggedValue tag="ea_localid" value="591"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
@@ -346,12 +896,12 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="250"/>
+								<UML:TaggedValue tag="ea_localid" value="413"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Wy&#347;wietlenie panelu zarz&#261;dczego gier"/>
 								<UML:TaggedValue tag="ea_targetName" value="Zarz&#261;dca gier"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="Actor"/>
-								<UML:TaggedValue tag="ea_sourceID" value="440"/>
+								<UML:TaggedValue tag="ea_sourceID" value="591"/>
 								<UML:TaggedValue tag="ea_targetID" value="420"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
@@ -390,7 +940,7 @@
 								<UML:TaggedValue tag="author" value="oskar"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="tpos" value="4"/>
-								<UML:TaggedValue tag="ea_localid" value="438"/>
+								<UML:TaggedValue tag="ea_localid" value="592"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
@@ -409,9 +959,9 @@
 				<UML:TaggedValue tag="type" value="Use Case"/>
 				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
 				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
-				<UML:TaggedValue tag="ea_localid" value="50"/>
+				<UML:TaggedValue tag="ea_localid" value="59"/>
 				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=827;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=113;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<UML:TaggedValue tag="styleex" value="SaveTag=DDAD8B85;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=137A6666;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;"/>
 			</UML:ModelElement.taggedValue>
 			<UML:Diagram.element>
 				<UML:DiagramElement geometry="Left=98;Top=323;Right=203;Bottom=393;" subject="EAID_C90D500B_9DDE_4d27_90EC_D125CA5A33E6" seqno="1" style="DUID=5C049D71;NSL=0;"/>
@@ -420,18 +970,72 @@
 				<UML:DiagramElement geometry="Left=485;Top=204;Right=623;Bottom=296;" subject="EAID_9AB01636_834D_416d_B5D3_0826CB8F6376" seqno="4" style="DUID=C16CCA16;NSL=0;"/>
 				<UML:DiagramElement geometry="Left=312;Top=136;Right=417;Bottom=206;" subject="EAID_524002D0_CFC9_42ce_90C7_309226742D4D" seqno="5" style="DUID=E215E8FF;NSL=0;"/>
 				<UML:DiagramElement geometry="Left=138;Top=447;Right=183;Bottom=537;" subject="EAID_B02CFFBB_6A12_4c49_8ADE_F496B4B7FB7B" seqno="6" style="DUID=23B3D9E2;NSL=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_B531E34E_8620_4ab7_B414_B564022A9ACC" style="Mode=3;EOID=23B3D9E2;SOID=5C049D71;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=46:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_F83A2907_DC4D_4a4f_906B_223F99D90A16" style="Mode=3;EOID=694B5240;SOID=5C049D71;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=46:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_228F8D21_F14C_40b1_B82A_DE3B7BE7F103" style="Mode=3;EOID=E215E8FF;SOID=5C049D71;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=CX=46:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_13DB482E_770C_4827_A3B3_618832F1393C" style="Mode=3;EOID=34B8F38A;SOID=E215E8FF;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=46:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_015B8A70_9CE9_402b_9B07_E21A82340583" style="Mode=3;EOID=C16CCA16;SOID=E215E8FF;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=CX=46:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_13DB482E_770C_4827_A3B3_618832F1393C" style="Mode=3;EOID=34B8F38A;SOID=E215E8FF;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=46:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_228F8D21_F14C_40b1_B82A_DE3B7BE7F103" style="Mode=3;EOID=E215E8FF;SOID=5C049D71;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_B531E34E_8620_4ab7_B414_B564022A9ACC" style="Mode=3;EOID=23B3D9E2;SOID=5C049D71;Color=-1;LWidth=0;Hidden=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="Specyfikacja zasobów dost&#281;pnych do projektowania gier" xmi.id="EAID_DCB72AA3_C7BE_4132_BD48_393E194C4F65" diagramType="CustomDiagram" owner="EAPK_CF29D4DC_E2C7_4d14_B6E0_3EB60A5E8E89" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Maciek"/>
+				<UML:TaggedValue tag="created_date" value="2023-04-23 20:51:19"/>
+				<UML:TaggedValue tag="modified_date" value="2023-04-23 21:09:59"/>
+				<UML:TaggedValue tag="package" value="EAPK_CF29D4DC_E2C7_4d14_B6E0_3EB60A5E8E89"/>
+				<UML:TaggedValue tag="type" value="Custom"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
+				<UML:TaggedValue tag="ea_localid" value="65"/>
+				<UML:TaggedValue tag="parent" value="EAID_4212CD3E_5CB8_4ac5_8921_9AFD2140A547"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=2;PPgs.cy=1;DocSize.cx=827;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=197;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=8F571C90;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=Extended::User Interface;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=415;Top=247;Right=767;Bottom=277;" subject="EAID_C05FD3D8_B0C8_4832_902C_29C498DC926C" seqno="1" style="DUID=1BCCC20C;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=355;Top=246;Right=414;Bottom=278;" subject="EAID_74B9B2C0_3DCF_49be_AA8B_6612305EC8CE" seqno="2" style="DUID=73693B91;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=355;Top=316;Right=414;Bottom=338;" subject="EAID_49CE7D24_7EA5_4148_9A30_5FCB63F9AAD0" seqno="3" style="DUID=AFB35848;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=354;Top=296;Right=414;Bottom=315;" subject="EAID_0D682F86_EDD0_4d82_AE70_D4E2EE4403E0" seqno="4" style="DUID=6BB22CD9;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=501;Top=217;Right=591;Bottom=237;" subject="EAID_27726D9D_C314_4351_9ECD_4D210E98FE86" seqno="5" style="DUID=8B4B3A9A;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=354;Top=278;Right=414;Bottom=296;" subject="EAID_D1956AC2_B52D_406c_9BD5_BEFBDA456FE7" seqno="6" style="DUID=04BC4361;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=683;Top=354;Right=773;Bottom=374;" subject="EAID_CC76791C_2D46_43a6_8121_EB112C79825A" seqno="7" style="DUID=2015B113;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=354;Top=246;Right=781;Bottom=339;" subject="EAID_D1D7D516_36B4_4ca7_8ACA_2A5B7F689344" seqno="8" style="DUID=42630A09;HideIcon=0;bold=0;black=0;italic=0;ul=0;charset=0;LCol=-2;BFol=-2;fontsz=80;LWth=1;font=Arial Narrow;pitch=34;BCol=255;"/>
+				<UML:DiagramElement geometry="Left=305;Top=196;Right=848;Bottom=406;" subject="EAID_11637EAF_E73A_47b1_899F_A8AE9F07E49D" seqno="9" style="DUID=B4776BC1;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="Wy&#347;wietlenie panelu zarz&#261;dczego gier" xmi.id="EAID_B02628FC_4B90_4c4a_B12F_C938C59B4F6A" diagramType="CustomDiagram" owner="EAPK_CF29D4DC_E2C7_4d14_B6E0_3EB60A5E8E89" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Maciek"/>
+				<UML:TaggedValue tag="created_date" value="2023-04-23 21:03:21"/>
+				<UML:TaggedValue tag="modified_date" value="2023-04-23 21:09:35"/>
+				<UML:TaggedValue tag="package" value="EAPK_CF29D4DC_E2C7_4d14_B6E0_3EB60A5E8E89"/>
+				<UML:TaggedValue tag="type" value="Custom"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
+				<UML:TaggedValue tag="ea_localid" value="66"/>
+				<UML:TaggedValue tag="parent" value="EAID_C90D500B_9DDE_4d27_90EC_D125CA5A33E6"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=2;PPgs.cy=1;DocSize.cx=827;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=F00726AC;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=Extended::User Interface;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=394;Top=471;Right=525;Bottom=490;" subject="EAID_95535988_6E51_4c94_A942_1E602DDE96C3" seqno="1" style="DUID=5DCC22CB;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=928;Top=472;Right=1061;Bottom=491;" subject="EAID_9207F00A_C7B9_4b88_B55E_31D9C29DF5AE" seqno="2" style="DUID=F1CB9675;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=392;Top=417;Right=1037;Bottom=437;" subject="EAID_47655E3E_A2D4_43e1_9018_E36541EA1D6F" seqno="3" style="DUID=37ADAAAF;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=391;Top=389;Right=1036;Bottom=407;" subject="EAID_FC9DFBE1_9305_47e8_89BB_7A8415FA5D12" seqno="4" style="DUID=792D8618;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=391;Top=357;Right=1036;Bottom=383;" subject="EAID_425B695B_9469_4a1d_B21B_F91299BB7F14" seqno="5" style="DUID=AD385558;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=391;Top=325;Right=1035;Bottom=348;" subject="EAID_C37C4134_66F3_471f_A1E8_9FF54E8AB9B4" seqno="6" style="DUID=141F0944;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=391;Top=295;Right=1035;Bottom=317;" subject="EAID_947935CE_496C_431c_AAB7_1FB35C907DD8" seqno="7" style="DUID=B934404C;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=391;Top=247;Right=1058;Bottom=458;" subject="EAID_0AA24F6C_0324_41e5_B0E5_0C5E7F95B17E" seqno="8" style="DUID=C36A7EC5;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=344;Top=197;Right=1087;Bottom=510;" subject="EAID_12D1C519_2F33_4eca_AA59_07DE13FCA48F" seqno="9" style="DUID=6D722FBD;"/>
 			</UML:Diagram.element>
 		</UML:Diagram>
 	</XMI.content>
 	<XMI.difference/>
 	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
 		<EAModel.scenario>
-			<EAScenario name="Basic Path" type="Basic Path" weight="0,00" subject="EAID_4212CD3E_5CB8_4ac5_8921_9AFD2140A547" xmi.id="EAID_9C98B21B_926E_453d_9ADD_6ACEFAAF3EAC">
+			<EAScenario name="Basic Path" type="Basic Path" weight="0,00" description="00: Zarz&#261;dca gier wybiera specyfikacj&#281; zasobów dost&#281;pnych do projektowania danej gry.&#xA;01: System wy&#347;wietla panel specyfikacji zasobów gry.&#xA;02: Zarz&#261;dca gier ustawia kontrolkami ilo&#347;&#263; przydzielonych zasobów z puli dost&#281;pnych.&#xA;03: Zarz&#261;dca gier wybiera przycisk zapisz.&#xA;04: System zapisuje stan zasobów po zmianie.&#xA;-&amp;gt; [zako&#324;czono]" subject="EAID_4212CD3E_5CB8_4ac5_8921_9AFD2140A547" xmi.id="EAID_9C98B21B_926E_453d_9ADD_6ACEFAAF3EAC">
 				<EAScenarioContent>
 					<path>
 						<step name="Zarz&#261;dca gier wybiera wy&#347;wietlenie panelu zarz&#261;dczego gier " guid="{0D366D8A-7023-4a55-8CEB-F4FF1085DCEE}" level="1" uses="" useslist="" result="" state="" trigger="1" link=""/>
@@ -517,15 +1121,15 @@
 					</path>
 				</EAScenarioContent>
 			</EAScenario>
-			<EAScenario name="Wy&#347;wietlenie panelu zarz&#261;dczego gier" type="Basic Path" weight="0,00" subject="EAID_C90D500B_9DDE_4d27_90EC_D125CA5A33E6" xmi.id="EAID_FC070EC4_B5FE_4f7b_A264_C5D2FFF1DFB0">
+			<EAScenario name="Wy&#347;wietlenie panelu zarz&#261;dczego gier" type="Basic Path" weight="0,00" description="00: Zarz&#261;dca gier wciska przycisk &quot;wy&#347;wietl panel zarz&#261;dczy gier&quot;&#xA;01: System wy&#347;wietla panel zarz&#261;dczy gier&#xA;-&amp;gt; [zako&#324;czono]" subject="EAID_C90D500B_9DDE_4d27_90EC_D125CA5A33E6" xmi.id="EAID_FC070EC4_B5FE_4f7b_A264_C5D2FFF1DFB0">
 				<EAScenarioContent>
 					<path>
 						<step name="Zarz&#261;dca gier wybiera opcj&#281; &quot;Wy&#347;wietl panel zarz&#261;dczy gier&quot;" guid="{A64F627F-9865-4930-9B8B-6566D25BC14B}" level="1" uses="" useslist="" result="" state="" trigger="1" link=""/>
 						<step name="System wy&#347;wietla panel zarz&#261;dzania grami." guid="{9D9CBFFB-1DDD-494c-983C-9F3C76600A50}" level="2" uses="" useslist="" result="" state="" trigger="0" link=""/>
 						<context>
-							<item oldname="Wy&#347;wietlenie zg&#322;osze&#324; gier" guid="{524002D0-CFC9-42ce-90C7-309226742D4D}"/>
 							<item oldname="Specyfikacja zasobów dost&#281;pnych do projektowania gier" guid="{4212CD3E-5CB8-4ac5-8921-9AFD2140A547}"/>
 							<item oldname="Zarz&#261;dca gier" guid="{B02CFFBB-6A12-4c49-8ADE-F496B4B7FB7B}"/>
+							<item oldname="Wy&#347;wietlenie zg&#322;osze&#324; gier" guid="{524002D0-CFC9-42ce-90C7-309226742D4D}"/>
 						</context>
 					</path>
 				</EAScenarioContent>
